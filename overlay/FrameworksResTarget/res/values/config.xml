@@ -29,6 +29,9 @@
          empty string is passed in -->
     <string name="config_wlan_network_service_package" translatable="false">vendor.qti.iwlan</string>
 
+    <!-- Whether the new Auto Selection Network UI should be shown -->
+    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
+
     <!-- Default files to pin via Pinner Service -->
     <string-array name="config_defaultPinnerServiceFiles">
         <item>/system/framework/arm64/boot-framework.oat</item>
@@ -48,5 +51,4 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <item>0:2:15</item>
     </string-array>
-
 </resources>
