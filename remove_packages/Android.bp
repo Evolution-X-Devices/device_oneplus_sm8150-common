@@ -1,0 +1,16 @@
+cc_prebuilt_binary {
+    name: "RemovePackages",
+    overrides: [
+        "AdaptiveVPNPrebuilt-10307",
+        "GoogleTTS",
+        "SoundAmplifierPrebuilt_v4.7.638126989",
+        "SwitchAccessPrebuilt_1.15.0.629986523",
+        "talkback",
+        "Tycho",
+        "VoiceAccessPrebuilt",
+    ],
+    strip: {
+        none: true,
+    },
+    srcs: ["RemovePackages"],
+}

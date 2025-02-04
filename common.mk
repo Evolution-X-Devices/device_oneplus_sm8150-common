@@ -10,6 +10,10 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 PRODUCT_PACKAGES += \
     otapreopt_script
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Alert slider
 PRODUCT_PACKAGES += \
     KeyHandler \
