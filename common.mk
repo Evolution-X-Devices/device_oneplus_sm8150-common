@@ -17,6 +17,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     otapreopt_script
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Alert slider
 PRODUCT_PACKAGES += \
     KeyHandler \
@@ -148,6 +152,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oplus:libudfps_extension.oplus)
+
+# Gapps
+TARGET_USES_MINI_GAPPS := true
 
 # GPS
 PRODUCT_COPY_FILES += \
