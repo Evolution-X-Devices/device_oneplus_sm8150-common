@@ -19,10 +19,10 @@
 
     <!--Define available chargers-->
     <!-- Whether device has dash charging support -->
-    <bool name="config_hasDashCharger">false</bool>
+    <bool name="config_hasDashCharger">true</bool>
     <!-- Whether device has VOOC charging support -->
     <bool name="config_hasVoocCharger">true</bool>
-    <!-- Whether device has Dash charging support -->
+    <!-- Whether device has Warp charging support -->
     <bool name="config_hasWarpCharger">true</bool>
 
     <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
