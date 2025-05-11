@@ -17,4 +17,8 @@
 
      <!-- Update battery info every second when device is charging -->
      <bool name="config_alternateFastchargeInfoUpdate">true</bool>
+
+    <!-- Reducing margin bottom to display charging infos below the udfps icon -->
+    <dimen name="keyguard_indication_margin_bottom">24dp</dimen>
+
 </resources>
