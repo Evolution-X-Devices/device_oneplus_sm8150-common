@@ -7,8 +7,6 @@
 COMMON_PATH := device/oneplus/sm8150-common
 
 # A/B
-AB_OTA_UPDATER := true
-
 AB_OTA_PARTITIONS += \
     boot \
     dtbo \
